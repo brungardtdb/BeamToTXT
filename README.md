@@ -1,1 +1,2 @@
 # BeamToTXT
+A Tekla API C# Windows Form application that writes all of the beams in the model to a text file. The user is prompted to select one of two buttons indicating whether or not they want to save the selected beam, or all of the beams in the model. Then the program saves the beams that the user has selected to a text file in the model folder. The program writes the beam GUID, Profile, Material Type, and Class number. Each of these is labeled in the string so the information in the text file makes sense and is easy to read.
